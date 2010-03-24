@@ -1,0 +1,42 @@
+NAME
+    Dist::Zilla::PluginBundle::PDONELAN - Dist::Zilla plugin bundle for
+    PDONELAN
+
+VERSION
+    version 1.100830
+
+SYNOPSIS
+        # dist.ini
+        [@PDONELAN]
+
+    It is equivalent to:
+
+        [@Filter]
+        bundle = @Classic
+        remove = PodVersion
+        remove = Readme
+      
+        [AutoPrereq]
+        [AutoVersion]
+        [CheckChangeLog]
+        [CompileTests]
+        [@Git]
+        [MetaTests]
+        [MetaJSON]
+        [ModuleBuild]
+        [NextRelease]
+        [PodWeaver]
+        [Prepender]
+        [Repository]
+        [ReadmeFromPod]
+        [UploadToCPAN]
+
+AUTHOR
+      Patrick Donelan <pat@patspam.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2010 by Patrick Donelan.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+

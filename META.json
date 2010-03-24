@@ -1,0 +1,32 @@
+{
+   "resources" : {
+      "repository" : "http://github.com/pdonelan/Dist-Zilla-PluginBundle-PDONELAN"
+   },
+   "generated_by" : "Dist::Zilla version 1.100711",
+   "meta-spec" : {
+      "version" : 1.4,
+      "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
+   },
+   "version" : "1.100830",
+   "name" : "Dist-Zilla-PluginBundle-PDONELAN",
+   "author" : [
+      "Patrick Donelan <pat@patspam.com>"
+   ],
+   "license" : "perl",
+   "build_requires" : {},
+   "requires" : {
+      "Test::More" : "0",
+      "Dist::Zilla::Role::PluginBundle" : "0",
+      "Dist::Zilla::PluginBundle::Filter" : "0",
+      "File::Find" : "0",
+      "File::Temp" : "0",
+      "Dist::Zilla::PluginBundle::Git" : "0",
+      "Moose::Autobox" : "0",
+      "Moose" : "0"
+   },
+   "abstract" : "Dist::Zilla plugin bundle for PDONELAN",
+   "configure_requires" : {
+      "ExtUtils::MakeMaker" : "6.11"
+   }
+}
+
