@@ -8,7 +8,7 @@
 # 
 package Dist::Zilla::PluginBundle::PDONELAN;
 BEGIN {
-  $Dist::Zilla::PluginBundle::PDONELAN::VERSION = '1.100970';
+  $Dist::Zilla::PluginBundle::PDONELAN::VERSION = '1.101060';
 }
 
 # ABSTRACT: Dist::Zilla plugin bundle for PDONELAN
@@ -39,8 +39,6 @@ use Dist::Zilla::Plugin::PodWeaver;
 use Dist::Zilla::Plugin::PortabilityTests;
 use Dist::Zilla::Plugin::Prepender;
 use Dist::Zilla::Plugin::ReadmeFromPod;
-use Dist::Zilla::Plugin::SynopsisTests;
-use Dist::Zilla::Plugin::UploadToCPAN;
 
 sub bundle_config {
     my ( $self, $section ) = @_;
@@ -87,8 +85,6 @@ sub bundle_config {
         [ PortabilityTests    => {} ],
         [ Prepender           => {} ],
         [ ReadmeFromPod       => {} ],
-        [ SynopsisTests       => {} ],
-        [ UploadToCPAN        => {} ],
         [ Manifest            => {} ],   # should come last
     );
 
@@ -121,7 +117,7 @@ Dist::Zilla::PluginBundle::PDONELAN - Dist::Zilla plugin bundle for PDONELAN
 
 =head1 VERSION
 
-version 1.100970
+version 1.101060
 
 =head1 DESCRIPTION
 
@@ -157,8 +153,6 @@ is equivalent to:
     [PortabilityTests]
     [Prepender]
     [ReadmeFromPod]
-    [SynopsisTests]
-    [UploadToCPAN]
     [Manifest]
 
 You can specify the following options

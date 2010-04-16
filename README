@@ -3,7 +3,7 @@ NAME
     PDONELAN
 
 VERSION
-    version 1.100970
+    version 1.101060
 
 DESCRIPTION
     Putting the following in your dist.ini file:
@@ -38,8 +38,6 @@ DESCRIPTION
         [PortabilityTests]
         [Prepender]
         [ReadmeFromPod]
-        [SynopsisTests]
-        [UploadToCPAN]
         [Manifest]
 
     You can specify the following options

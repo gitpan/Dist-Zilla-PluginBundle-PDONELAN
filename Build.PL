@@ -29,7 +29,6 @@ my %module_build_args = (
                                        'Dist::Zilla::Plugin::AutoVersion' => '0',
                                        'Dist::Zilla::Plugin::MetaResources' => '0',
                                        'Moose' => '0',
-                                       'Dist::Zilla::Plugin::SynopsisTests' => '0',
                                        'Dist::Zilla::Plugin::Prepender' => '0',
                                        'Dist::Zilla::Plugin::PortabilityTests' => '0',
                                        'Dist::Zilla::Plugin::AutoPrereq' => '0',
@@ -42,7 +41,6 @@ my %module_build_args = (
                                        'Dist::Zilla::PluginBundle::Classic' => '0',
                                        'Dist::Zilla::Plugin::HasVersionTests' => '0',
                                        'Dist::Zilla::Plugin::DistManifestTests' => '0',
-                                       'Dist::Zilla::Plugin::UploadToCPAN' => '0',
                                        'Dist::Zilla::Plugin::MetaJSON' => '0',
                                        'Dist::Zilla::PluginBundle::Git' => '0',
                                        'Dist::Zilla::Plugin::CheckChangesTests' => '0',
@@ -53,7 +51,7 @@ my %module_build_args = (
                                                  'ExtUtils::MakeMaker' => '6.31',
                                                  'Module::Build' => '0.3601'
                                                },
-                       'dist_version' => '1.100970'
+                       'dist_version' => '1.101060'
                      );
 
 
