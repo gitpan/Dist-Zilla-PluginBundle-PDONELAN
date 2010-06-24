@@ -3,7 +3,7 @@ NAME
     PDONELAN
 
 VERSION
-    version 1.101060
+    version 1.101750
 
 DESCRIPTION
     Putting the following in your dist.ini file:
@@ -29,7 +29,6 @@ DESCRIPTION
         [ManifestSkip]
         [MetaTests]
         [MetaJSON]
-        [Repository]
         [MetaResources]
         [MinimumVersionTests]
         [ModuleBuild]
@@ -54,7 +53,7 @@ DESCRIPTION
         ratings
 
 AUTHOR
-      Patrick Donelan <pat@patspam.com>
+    Patrick Donelan <pat@patspam.com>
 
 COPYRIGHT AND LICENSE
     This software is copyright (c) 2010 by Patrick Donelan.

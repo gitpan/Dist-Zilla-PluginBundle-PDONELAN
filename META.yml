@@ -10,13 +10,13 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.31
   Module::Build: 0.3601
-generated_by: 'Dist::Zilla version 2.101040'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.101612, CPAN::Meta::Converter version 2.101670'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Dist-Zilla-PluginBundle-PDONELAN
-recommends: {}
 requires:
   Dist::Zilla::Plugin::AutoPrereq: 0
   Dist::Zilla::Plugin::AutoVersion: 0
@@ -36,13 +36,11 @@ requires:
   Dist::Zilla::Plugin::PortabilityTests: 0
   Dist::Zilla::Plugin::Prepender: 0
   Dist::Zilla::Plugin::ReadmeFromPod: 0
-  Dist::Zilla::Plugin::Repository: 0
   Dist::Zilla::PluginBundle::Classic: 0
   Dist::Zilla::PluginBundle::Filter: 0
   Dist::Zilla::PluginBundle::Git: 0
   Dist::Zilla::Role::PluginBundle: 0
   Moose: 0
   Moose::Autobox: 0
-resources:
-  repository: http://github.com/pdonelan/Dist-Zilla-PluginBundle-PDONELAN
-version: 1.101060
+resources: {}
+version: 1.101750

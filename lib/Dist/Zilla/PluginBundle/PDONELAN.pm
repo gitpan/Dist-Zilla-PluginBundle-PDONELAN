@@ -8,7 +8,7 @@
 # 
 package Dist::Zilla::PluginBundle::PDONELAN;
 BEGIN {
-  $Dist::Zilla::PluginBundle::PDONELAN::VERSION = '1.101060';
+  $Dist::Zilla::PluginBundle::PDONELAN::VERSION = '1.101750';
 }
 
 # ABSTRACT: Dist::Zilla plugin bundle for PDONELAN
@@ -30,7 +30,6 @@ use Dist::Zilla::Plugin::HasVersionTests;
 use Dist::Zilla::Plugin::ManifestSkip;
 use Dist::Zilla::Plugin::MetaTests;
 use Dist::Zilla::Plugin::MetaJSON;
-use Dist::Zilla::Plugin::Repository;
 use Dist::Zilla::Plugin::MetaResources;
 use Dist::Zilla::Plugin::MinimumVersionTests;
 use Dist::Zilla::Plugin::ModuleBuild;
@@ -75,7 +74,6 @@ sub bundle_config {
         [ HasVersionTests     => {} ],
         [ MetaTests           => {} ],
         [ MetaJSON            => {} ],
-        [ Repository          => {} ],
         [ ManifestSkip        => {} ],
         [ MetaResources       => \%meta_resources ],
         [ MinimumVersionTests => {} ],
@@ -117,7 +115,7 @@ Dist::Zilla::PluginBundle::PDONELAN - Dist::Zilla plugin bundle for PDONELAN
 
 =head1 VERSION
 
-version 1.101060
+version 1.101750
 
 =head1 DESCRIPTION
 
@@ -144,7 +142,6 @@ is equivalent to:
     [ManifestSkip]
     [MetaTests]
     [MetaJSON]
-    [Repository]
     [MetaResources]
     [MinimumVersionTests]
     [ModuleBuild]
@@ -170,7 +167,7 @@ And also any of the following MetaResources
 
 =head1 AUTHOR
 
-  Patrick Donelan <pat@patspam.com>
+Patrick Donelan <pat@patspam.com>
 
 =head1 COPYRIGHT AND LICENSE
 
