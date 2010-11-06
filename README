@@ -1,59 +1,22 @@
 NAME
-    Dist::Zilla::PluginBundle::PDONELAN - Dist::Zilla plugin bundle for
-    PDONELAN
+    Dist::Zilla::PluginBundle::PDONELAN - Dist::Zilla pre-wired for PDONELAN
 
 VERSION
-    version 1.101750
+    version 1.200
 
 DESCRIPTION
-    Putting the following in your dist.ini file:
+    This is a Dist::Zilla plugin bundle.
 
-        [@PDONELAN]
+    Please see the (nicely commented) source code to see which plugins this
+    module bundles - I already have to list them twice in the source just to
+    make this work - three times would drive me nuts.
 
-    is equivalent to:
-
-        [@Filter]
-        bundle = @Classic
-        remove = PodVersion
-        remove = Readme
-        remove = Manifest
-      
-        [AutoPrereq]
-        [AutoVersion]
-        [CheckChangeLog]
-        [CheckChangesTests]
-        [CompileTests]
-        [DistManifestTests]
-        [@Git]
-        [HasVersionTests]
-        [ManifestSkip]
-        [MetaTests]
-        [MetaJSON]
-        [MetaResources]
-        [MinimumVersionTests]
-        [ModuleBuild]
-        [NextRelease]
-        [PodWeaver]
-        [PortabilityTests]
-        [Prepender]
-        [ReadmeFromPod]
-        [Manifest]
-
-    You can specify the following options
-
-        major_version = X ;; passed to AutoVersion (defaults to 1)
-        auto_prereq_skip = ^Foo|Bar$
-
-    And also any of the following MetaResources
-
-        homepage 
-        bugtracker 
-        repository ;; only needed if you want to overwrite [Repository]'s value
-        license 
-        ratings
+METHODS
+  configure
+    Adds the list of plugins (and bundles) in order
 
 AUTHOR
-    Patrick Donelan <pat@patspam.com>
+    Patrick Donelan <pdonelan@cpan.org>
 
 COPYRIGHT AND LICENSE
     This software is copyright (c) 2010 by Patrick Donelan.
