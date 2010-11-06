@@ -43,25 +43,9 @@ resources:
   bugtracker: http://github.com/pdonelan/Dist-Zilla-PluginBundle-PDONELAN/issues
   homepage: http://github.com/pdonelan/Dist-Zilla-PluginBundle-PDONELAN/tree
   repository: git://github.com/pdonelan/Dist-Zilla-PluginBundle-PDONELAN.git
-version: 1.200
+version: 1.201
 x_Dist_Zilla:
   plugins:
-    -
-      class: Dist::Zilla::Plugin::Git::Check
-      name: '@PDONELAN/@Git/Check'
-      version: 1.102810
-    -
-      class: Dist::Zilla::Plugin::Git::Commit
-      name: '@PDONELAN/@Git/Commit'
-      version: 1.102810
-    -
-      class: Dist::Zilla::Plugin::Git::Tag
-      name: '@PDONELAN/@Git/Tag'
-      version: 1.102810
-    -
-      class: Dist::Zilla::Plugin::Git::Push
-      name: '@PDONELAN/@Git/Push'
-      version: 1.102810
     -
       class: Dist::Zilla::Plugin::GatherDir
       name: '@PDONELAN/GatherDir'
@@ -190,6 +174,22 @@ x_Dist_Zilla:
       class: Dist::Zilla::Plugin::UpdateGitHub
       name: '@PDONELAN/UpdateGitHub'
       version: 0.0014
+    -
+      class: Dist::Zilla::Plugin::Git::Check
+      name: '@PDONELAN/@Git/Check'
+      version: 1.102810
+    -
+      class: Dist::Zilla::Plugin::Git::Commit
+      name: '@PDONELAN/@Git/Commit'
+      version: 1.102810
+    -
+      class: Dist::Zilla::Plugin::Git::Tag
+      name: '@PDONELAN/@Git/Tag'
+      version: 1.102810
+    -
+      class: Dist::Zilla::Plugin::Git::Push
+      name: '@PDONELAN/@Git/Push'
+      version: 1.102810
     -
       class: Dist::Zilla::Plugin::FinderCode
       name: ':InstallModules'

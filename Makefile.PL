@@ -47,7 +47,7 @@ my %WriteMakefileArgs = (
     'Dist::Zilla::Role::PluginBundle::Easy' => '0',
     'Moose' => '0'
   },
-  'VERSION' => '1.200',
+  'VERSION' => '1.201',
   'test' => {
     'TESTS' => 't/*.t'
   }

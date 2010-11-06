@@ -1,6 +1,6 @@
 package Dist::Zilla::PluginBundle::PDONELAN;
 BEGIN {
-  $Dist::Zilla::PluginBundle::PDONELAN::VERSION = '1.200';
+  $Dist::Zilla::PluginBundle::PDONELAN::VERSION = '1.201';
 }
 
 # ABSTRACT: Dist::Zilla pre-wired for PDONELAN
@@ -43,7 +43,6 @@ sub configure {
     # All non-bundle plugins listed should also have a corresponding
     # "use Dist::Zilla::Plugin::X" line for dependency resolution
 
-    $self->add_bundle('Git');    # @RJBS
     $self->add_plugins(
 
         # FileGatherer
@@ -98,6 +97,8 @@ sub configure {
         'UploadToCPAN',              # @Basic
         'UpdateGitHub',              # @ROKR
     );
+
+    $self->add_bundle('Git');    # @RJBS
 }
 
 __PACKAGE__->meta->make_immutable;
@@ -114,7 +115,7 @@ Dist::Zilla::PluginBundle::PDONELAN - Dist::Zilla pre-wired for PDONELAN
 
 =head1 VERSION
 
-version 1.200
+version 1.201
 
 =head1 DESCRIPTION
 

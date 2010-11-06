@@ -1,5 +1,8 @@
 Revision history for Dist-Zilla-PluginBundle-PDONELAN
 
+1.201     2010-11-05 23:52:20 America/New_York
+    * Fixed PluginBundle::Git bug
+
 1.200     2010-11-05 23:39:06 America/New_York
     * Now based on Dist::Zilla::Role::PluginBundle::Easy
 

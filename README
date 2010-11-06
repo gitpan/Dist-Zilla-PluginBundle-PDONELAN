@@ -2,7 +2,7 @@ NAME
     Dist::Zilla::PluginBundle::PDONELAN - Dist::Zilla pre-wired for PDONELAN
 
 VERSION
-    version 1.200
+    version 1.201
 
 DESCRIPTION
     This is a Dist::Zilla plugin bundle.
